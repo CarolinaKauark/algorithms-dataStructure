@@ -14,8 +14,8 @@ describe('Test challenge 01', () => {
   });
 
   it('Checks if the function getting the type of highest returns the highest number', () => {
-    expect(readArray([1, 2, 3, '4', 5], 'numbers')).toEqual(5);
-    expect(readArray([1, 2, 3, '4', -5], 'numbers')).toEqual(3);
-    expect(readArray([1, 2, '13', 4, '10'], 'numbers')).toEqual(4);
+    expect(readArray([1, 2, 3, '4', 5], 'highest')).toEqual(5);
+    expect(readArray([1, 2, 3, '4', -5], 'highest')).toEqual(3);
+    expect(readArray([1, 2, '13', 4, '10'], 'highest')).toEqual(4);
   });
 });
