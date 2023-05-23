@@ -1,3 +1,5 @@
+const randomPattern = require("../challenge03");
+
 describe('Test challenge 03', () => {
   it('Checks if the function is working as expected', () => {
     expect(randomPattern('AA-BB-CC-DD')).toHaveLength(11);
