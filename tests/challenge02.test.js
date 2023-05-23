@@ -1,7 +1,7 @@
 const hashMap = require("../challenge02");
 
 describe('Test challenge 02', () => {
-  it('Checks if the function getting the type of letters returns an array of letters', () => {
+  it('Checks if the function is working as expected', () => {
     expect(hashMap.addition([3, 4, 5])).toEqual(12);
     expect(hashMap.subtraction([3, 4, 5])).toEqual(-6);    
     expect(hashMap.multiplication(4, 5)).toEqual(20);
