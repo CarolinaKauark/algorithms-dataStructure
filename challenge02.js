@@ -1,3 +1,5 @@
+// Create a hashmap that contains the elementary functions of addition, subtraction, multiplication, and division.
+
 const objHashMap = {
   addition: (array) => array.reduce((acc, current) => acc + current, 0),
   subtraction: (array) => array.reduce((acc, current) => (acc) - (current)),
